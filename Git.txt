@@ -1,0 +1,24 @@
+1.Hacer Click derecho y buscar git bash here
+ 
+2.git init ---> Iniciamos Git en el repositorio ubicado
+
+3.git status -s ---> Nos muestra los archivos de esa carpeta
+*los que estan en ?? ---> son los que no pasaron al lugar de ensayos
+*los que estan en A ---> son los que estan en lugar de Ensayos
+*los que estan en M verde ---> son los que estan en Repositorio Local
+*los que estan en M rojo ---> son los que estan en Repositorio Local pero se ha echo modificaciones en ese Archivo
+
+4.git add (archivo con extencion) ---> que seria lugar de ensayos
+
+5.git commit -m "comentarioArchivo" ---> Lugar Repositorio Local con su comentario del archivo
+*Puede que te aparesca un error al principio porque no colocaste el nombre ni el Gmail
+*Para eso coloca  git config --global user.email "you email"
+*Tambien se coloca git config --global user.name "your name"
+
+6.cuando la M esta en rojo se tendra que colocar el comando git add para llevarlo al repositorio de ensayos
+
+7.Luego para guardarlo y llevarlo al repositorio local colocar git commit -m "comentario"
+
+8.git log --oneline ---> es para ver los trabajos guardados con sus comentario
+
+9.git reset --hard (codigo amarillo de la version a elegir) ---> es para volver a la version anterior
